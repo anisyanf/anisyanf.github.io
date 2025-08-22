@@ -8,24 +8,34 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #f5f7fc;
+    /*background-color: #fafbfe;*/
+
 }
 .wrapper{
     width: 1100px;
     margin: auto;
     position: relative;
+    /*background-color: #f5f7fc;*/
+    /*background-color: #f0f1f3;*/
+    background-color: #f5f7fc;
+
 }
 
 .logo a {
     font-size: 30px;
     font-weight: 700;
     float: left;
-    font-family: courier;
-    color: #000000;
+    /*font-family: courier;*/
+    font-family: 'serif';
+    color: #1B3C53;
+ 
+
 }
 
 .menu{
     float: right;
-
+    color: #1B3C53;
 }
 
 nav {
@@ -39,6 +49,7 @@ nav {
     background: #FFFFFF;
     z-index: 1;
     border-bottom: 1px solid #364f6b;
+    background-color: #f5f7fc
 }
 
 nav ul{
@@ -101,11 +112,52 @@ nav ul li a:hover{
     display: block;
 }*/
 
-.profile-container {
+/*.profile-container {
     display: flex;
     align-items: center; /* sejajarkan vertikal */
-    gap: 20px; /* jarak antara foto dan teks */
-    margin-top: 40px;
+    /*gap: 20px; /* jarak antara foto dan teks */
+    /*margin-top: 40px;
+}*/
+.profile-container{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.home-title{
+    font-size: 23 px;
+    font-weight: bold;
+    margin-bottom: 39px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.home-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.profile{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.home-text{
+    flex: 1;
+    color: #1B3C53;
+
+
+}
+.home-text h3{
+    font-family: 'serif';
+    font-size: 21px;
+}
+
+.description{
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .profile-container img {
@@ -114,6 +166,7 @@ nav ul li a:hover{
     height: 320px;
     object-fit: cover;
     border-radius: 50%;
+    object-position: 50% 70%;
 }
 
 section{
@@ -131,12 +184,14 @@ section{
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
+    /*font-family: 'serif';*/
+
     color: #364f6b;
 
 }
 
 h2{
-    font-family: 'comic sans ms';
+    font-family: 'serif';
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -148,7 +203,7 @@ a.tbl-blue{
     background: #3f72af;
     border-radius: 20px;
     margin-top: 30px;
-    padding: 20px 20px 15px 20px;
+    padding: 10px 20px 10px 20px;
     color: #ffffff;
     cursor: pointer;
     font-weight: bold;
@@ -211,11 +266,19 @@ a.tbl-blue:hover{
 }
 
 .project-item p {
+   
+   
+    font-size: 17px;
+    text-align: justify;
+    color: #364f6b;
+}
+.project-item h3{
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
     color: #364f6b;
+    margin-bottom: 15px;
 }
 
 .tools-list {
@@ -263,6 +326,7 @@ a.tbl-blue:hover{
     font-weight: normal;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact-item{
@@ -382,3 +446,49 @@ a.tbl-tools:hover{
     background: #112d4e;
     color: #ffffff;
 }
+
+.download {
+    margin-top:20px;
+    text-align: center;
+}
+
+.tbl-download {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #2c6ebf;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.tbl-download:hover {
+  background-color: #F08080;
+  
+}
+
+.tbl-home{
+    color: #1B3C53;
+
+}
+
+.column p {
+    color: #364f6b;
+    font-family: 'serif';
+    font-size: 20px;
+   margin-bottom: 35px;
+}
+
+.column1 p {
+    color: #364f6b;
+    font-family: 'serif';
+    font-size: 20px;
+   margin-bottom: 35px;
+}
+
+.contact-item img{
+    width: 65px;
+}
+
