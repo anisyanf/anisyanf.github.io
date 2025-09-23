@@ -294,7 +294,7 @@ a.tbl-blue:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 17px;
+    gap: 20px;
 }
 
 /*.tool-item{
@@ -498,3 +498,4 @@ a.tbl-tools:hover{
     width: 65px;
 
 }
+
