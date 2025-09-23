@@ -294,7 +294,7 @@ a.tbl-blue:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 17px;
 }
 
 /*.tool-item{
@@ -496,4 +496,5 @@ a.tbl-tools:hover{
 
 .contact-item img{
     width: 65px;
+
 }
