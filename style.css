@@ -462,7 +462,7 @@ a.tbl-tools:hover{
     display: flex;
     gap: 15px;
     margin-top: 20px;
-    justify-content: center;
+    justify-content: left;
 
 }
 
@@ -505,3 +505,4 @@ a.tbl-tools:hover{
 .contact-item img{
     width: 65px;
 }
+
