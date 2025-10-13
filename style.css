@@ -120,8 +120,8 @@ nav ul li a:hover{
 
 /*.profile-container {
     display: flex;
-    align-items: center; 
-    /*gap: 20px; 
+    align-items: center; /* sejajarkan vertikal */
+    /*gap: 20px; /* jarak antara foto dan teks */
     /*margin-top: 40px;
 }*/
 .profile-container{
@@ -220,8 +220,8 @@ a.tbl-blue:hover{
     color: #ffffff;
 }
 .read-button {
-    display: inline-block; 
-    margin-top: 15px;     
+    display: inline-block; /* Supaya bisa diatur jaraknya */
+    margin-top: 15px;      /* Jarak tombol dari teks di atas */
 }
 
 .tengah{
@@ -304,8 +304,8 @@ a.tbl-blue:hover{
 
 .tool-item {
     display: flex;
-    flex-direction: column;
-    align-items: center;   
+    flex-direction: column; /* Susun ke bawah */
+    align-items: center;    /* Rata tengah */
     text-align: center;
 }
 
@@ -359,8 +359,8 @@ a.tbl-blue:hover{
 }
 
 .contact-item:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2); 
+    transform: translateY(-5px); /* geser sedikit ke atas saat hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* efek bayangan lebih dalam */
 }
 
 .contact-item h3 {
@@ -382,21 +382,21 @@ a.tbl-blue:hover{
 
 
 .contact-list ul {
-    list-style: none;       
+    list-style: none;        /* hilangkan bullet */
     padding: 0;
     margin: 0;
-    display: flex;          
-    justify-content: center; 
-    gap: 20px;               
+    display: flex;           /* biar sejajar ke kanan */
+    justify-content: center; /* taruh di tengah */
+    gap: 20px;               /* kasih jarak antar item */
 }
 
 .contact-list ul li {
-    display: inline-block;   
+    display: inline-block;   /* biar tetap inline */
 }
 .contact-list ul li a {
-    color: #364f6b;          
-    text-decoration: none;   
-    font-weight: bold;       
+    color: #364f6b;          /* warna teks */
+    text-decoration: none;   /* hilangkan garis bawah */
+    font-weight: bold;       /* teks tebal */
 }
 a.tbl-contact{
     background: #468A9A;
@@ -413,7 +413,7 @@ a.tbl-contact{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 20px; /* jarak antar item */
 }
 
 .tbl-nav {
@@ -504,7 +504,4 @@ a.tbl-tools:hover{
 
 .contact-item img{
     width: 65px;
-
 }
-
-
