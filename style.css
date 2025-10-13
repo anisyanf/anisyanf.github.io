@@ -220,8 +220,8 @@ a.tbl-blue:hover{
     color: #ffffff;
 }
 .read-button {
-    display: inline-block; /* Supaya bisa diatur jaraknya */
-    margin-top: 15px;      /* Jarak tombol dari teks di atas */
+    display: inline-block; 
+    margin-top: 15px;   
 }
 
 .tengah{
@@ -304,8 +304,8 @@ a.tbl-blue:hover{
 
 .tool-item {
     display: flex;
-    flex-direction: column; /* Susun ke bawah */
-    align-items: center;    /* Rata tengah */
+    flex-direction: column; 
+    align-items: center;    
     text-align: center;
 }
 
@@ -359,8 +359,8 @@ a.tbl-blue:hover{
 }
 
 .contact-item:hover {
-    transform: translateY(-5px); /* geser sedikit ke atas saat hover */
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* efek bayangan lebih dalam */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2); 
 }
 
 .contact-item h3 {
@@ -382,21 +382,21 @@ a.tbl-blue:hover{
 
 
 .contact-list ul {
-    list-style: none;        /* hilangkan bullet */
+    list-style: none;      
     padding: 0;
     margin: 0;
-    display: flex;           /* biar sejajar ke kanan */
-    justify-content: center; /* taruh di tengah */
-    gap: 20px;               /* kasih jarak antar item */
+    display: flex;           
+    justify-content: center; 
+    gap: 20px;             
 }
 
 .contact-list ul li {
-    display: inline-block;   /* biar tetap inline */
+    display: inline-block;  
 }
 .contact-list ul li a {
-    color: #364f6b;          /* warna teks */
-    text-decoration: none;   /* hilangkan garis bawah */
-    font-weight: bold;       /* teks tebal */
+    color: #364f6b;          
+    text-decoration: none; 
+    font-weight: bold;   
 }
 a.tbl-contact{
     background: #468A9A;
@@ -413,7 +413,7 @@ a.tbl-contact{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* jarak antar item */
+    gap: 20px;
 }
 
 .tbl-nav {
@@ -505,4 +505,5 @@ a.tbl-tools:hover{
 .contact-item img{
     width: 65px;
 }
+
 
